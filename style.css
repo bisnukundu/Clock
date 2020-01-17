@@ -1,20 +1,22 @@
 
-.st{
-	transform: rotate(50deg);
-	transition: 2s;
-}
 .box{
 	width:600px;
 	height: 600px;
-	border: 1px solid black;
 	position: relative;
+	margin:auto;
+	transition:1s;
 }
+.name{
+	font-family: gabriola;
+	font-size: 50px;
+	margin: auto;
+	width:420px;
 
-img:nth-child(1){
+}
+img{
 	display: block;
 	width:600px;
 	margin:auto;
-	border:1px solid black;
 }
 
 .second{
@@ -23,7 +25,6 @@ img:nth-child(1){
 	position:absolute;
 	left: 52%;
 	display:block;
-	/*transform: rotate(0deg);*/
 	transform-origin: bottom;
 	background: red;
 	width:3px;
@@ -35,11 +36,11 @@ img:nth-child(1){
 	position:absolute;
 	left: 51.5%;
 	display:block;
-	/*transform: rotate(0deg);*/
 	transform-origin: bottom;
 	background: green;
 	width:10px;
 	height: 100px;
+	transition:1s;
 }
 .minutes{
 	top: 33%;
@@ -47,11 +48,11 @@ img:nth-child(1){
 	position:absolute;
 	left: 51.6%;
 	display:block;
-	/*transform: rotate(0deg);*/
 	transform-origin: bottom;
 	background: lightblue;
 	width:7px;
 	height: 115px;
+	transition:1s;
 }
 
 .gol{
