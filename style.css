@@ -4,7 +4,6 @@
 	height: 600px;
 	position: relative;
 	margin:auto;
-	transition:1s;
 }
 .name{
 	font-family: gabriola;
@@ -40,7 +39,7 @@ img{
 	background: green;
 	width:10px;
 	height: 100px;
-	transition:1s;
+	transition:0.5s;
 }
 .minutes{
 	top: 33%;
@@ -52,7 +51,7 @@ img{
 	background: lightblue;
 	width:7px;
 	height: 115px;
-	transition:1s;
+	transition:0.5s;
 }
 
 .gol{
